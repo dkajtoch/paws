@@ -1,5 +1,15 @@
 ## Raw Sentences and Mappings for PAWS-Wiki
 
+<font size="14">
+I created this fork since I had problems with building the dataset. You can generate the PAWS dataset using `generate_ssh.sh` script. Tested on Google Colab `python 3.6`.
+</font>
+```
+pip install -r requirements.txt --user
+chmod +x ./generate_qqp.sh
+
+./generate_qqp.sh
+```
+
 Here we provide raw source sentences for `PAWS-Wiki` before any human
 judgements, and their mappings to final released pairs.
 

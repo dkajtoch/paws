@@ -1,5 +1,14 @@
 # PAWS: Paraphrase Adversaries from Word Scrambling
 
+I created this fork since I had problems with building the dataset. You can generate the PAWS based on Quora Question Pairs dataset using `generate_ssh.sh` script. You do not need to download anything. Everything is there. Tested on Google Colab `python 3.6`.
+
+```bash
+pip install -r requirements.txt --user
+chmod +x ./generate_qqp.sh
+
+./generate_qqp.sh
+```
+---
 **\*\*\*\*\* New August 27th, 2019: Multilingual PAWS for six languages
 \*\*\*\*\***
 
